@@ -1,0 +1,21 @@
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+
+# Веса модели
+*.pth
+model_final.pth
+model_step_*.pth
+
+# Файлы токенизатора
+os_ru_tokenizer.json
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.vscode/
+.idea/
